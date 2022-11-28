@@ -1,2 +1,1 @@
-# windows-drivers-for-old-e-mu-audio
-fixes error "you don't appear to have sufficient E-MU hardware..."
+assets for windows-drivers-for-old-e-mu-audio repo
