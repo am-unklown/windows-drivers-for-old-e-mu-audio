@@ -3,7 +3,7 @@
 ![don't have sufficient E-MU hardware error screenshot](../assets/sufficient-e-mu-hardware-error-screenshot.jpg?raw=true)
 > you don't appear to have sufficient E-MU hardware to load the session in your system
 
-Fix for E-MU 1616m, 1212m, 1820m, 0404 audio interfaces which do not work on Windows 10 1903 (fix may work with above versions too).
+Fix for E-MU **0404, 1010, 1212m, 1616, 1616m, 1820, 1820m** audio interfaces which do not work on Windows 10 1903 (fix may work with above versions too).
 
 ## How to use
 - Uninstall your driver
