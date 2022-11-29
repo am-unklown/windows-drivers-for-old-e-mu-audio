@@ -12,6 +12,8 @@ Fix for E-MU **0404, 1010, 1212m, 1616, 1616m, 1820, 1820m** audio interfaces wh
 - Install driver from this repo (unzip and run setup.exe)
 - Install PatchMix DSP
 - Reboot
+- (additional, only if you have problems with asio after install, I don't investigate this problem) you can try files `reg-asio-syswow64.cmd` and `reg-asio.cmd` placed in "just in case" folder or reg edit:\
+`win+r -> regedit -> go to HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Run -> right-click AsioThk32Reg -> modify -> change CTASIO.DLL to CTASIO64.DLL -> Ok -> reboot`
 
 ##### Files:
 `EmuPMX_PCApp_US_2_20_00.exe` - original PatchMix DSP installer [[virustotal](https://www.virustotal.com/gui/file/74361840c3f51c4d7b0cef0fef58e547ee7b5189872154d06ca8d5ee0e81eab4)].\
